@@ -1,0 +1,68 @@
+body{
+    background-color:aliceblue;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+h1{
+    font-size: 2.5rem;
+    font-weight:300;
+}
+span{
+    color: black;
+    font-weight: 300;
+}
+.text{
+    font-size: 17px;
+    margin: -1rem 0 2rem 0;
+    color: black;
+}
+input,button{
+    border: 1px solid;
+    border-radius: 2rem;
+    
+    padding: 0.7rem 0 0.7rem 1.5rem;
+}
+input{
+    width: 25%;
+    color: hsl(0, 0%, 59%);
+    border-color:hsl(0, 0%, 59%);
+}
+button{
+    width: 12%;
+    padding-left: 0;
+    margin-left: 0.5rem;
+    background-color: hsl(223, 87%, 63%);
+    color:aliceblue;
+    border-color:hsl(223, 87%, 63%);
+    transition: all .5s;
+}
+button:hover{
+    opacity: 0.8;
+    color: hsl(354, 100%, 66%);
+}
+#validation{
+    text-align:left;
+    margin-left: 26rem;
+    margin-top: 0;
+    color: hsl(354, 100%, 66%);
+    font-size: 0.8rem;
+}
+.orta{
+    width: 43%;
+    margin-top: 5rem;
+}
+.icon{
+    border-radius: 50%;
+    border: 0px solid;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: hsl(223, 87%, 63%) ;
+    margin: 0.5rem;
+    transition: all .5s;
+}
+.icon:hover{
+    color:aliceblue;
+    background-color: hsl(223, 87%, 63%) ;
+}

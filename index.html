@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <img src="./images/logo.svg" alt="">
+    <h1>We are launching <span>soon!</span> </h1>
+    <p class="text">Subscribe and get notified</p>
+    <div>
+      <form action="/hello"  onchange="ValidateEmail()">
+        <input type="text" placeholder="Your email address..." id='input_id' required='' oninvalid="this.setCustomValidity('Shuny hokman doldurmaly')">
+        <button id="myBtn" type="submit">Notify Me</button>
+      </form>
+      <p id="validation"></p>
+
+    </div>
+    <img class="orta" src="./images/illustration-dashboard.png" alt="">
+    <footer>
+      <div >
+        <ion-icon class="icon" name="logo-facebook"></ion-icon>
+        <ion-icon class="icon" name="logo-twitter"></ion-icon>
+        <ion-icon class="icon" name="logo-instagram"></ion-icon>
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+  </section>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
